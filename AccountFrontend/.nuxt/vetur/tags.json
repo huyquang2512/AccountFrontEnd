@@ -1,0 +1,23 @@
+{
+  "Header": {
+    "description": "Auto imported from components/Header.vue"
+  },
+  "Logo": {
+    "description": "Auto imported from components/Logo.vue"
+  },
+  "Menu": {
+    "description": "Auto imported from components/Menu.vue"
+  },
+  "Search": {
+    "description": "Auto imported from components/Search.vue"
+  },
+  "AccountCreateEdit": {
+    "description": "Auto imported from components/Account/CreateEdit.vue"
+  },
+  "AccountSearchAccount": {
+    "description": "Auto imported from components/Account/SearchAccount.vue"
+  },
+  "AccountTable": {
+    "description": "Auto imported from components/Account/Table.vue"
+  }
+}

@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Account-List",
+    "path": "/Account/List",
+    "component": "C:\\\\Users\\\\Ad\\\\Desktop\\\\DuAnCty\\\\ADuanCty5\\\\FrontEnd\\\\ReportFrontend\\\\pages\\\\Account\\\\List.vue",
+    "chunkName": "pages/Account/List",
+    "_name": "_324ad937"
+  },
+  {
+    "name": "Account-New",
+    "path": "/Account/New",
+    "component": "C:\\\\Users\\\\Ad\\\\Desktop\\\\DuAnCty\\\\ADuanCty5\\\\FrontEnd\\\\ReportFrontend\\\\pages\\\\Account\\\\New.vue",
+    "chunkName": "pages/Account/New",
+    "_name": "_c2ff19d2"
+  },
+  {
+    "name": "Account-Search",
+    "path": "/Account/Search",
+    "component": "C:\\\\Users\\\\Ad\\\\Desktop\\\\DuAnCty\\\\ADuanCty5\\\\FrontEnd\\\\ReportFrontend\\\\pages\\\\Account\\\\Search.vue",
+    "chunkName": "pages/Account/Search",
+    "_name": "_6c5885fe"
+  },
+  {
+    "name": "Account-id",
+    "path": "/Account/:id?",
+    "component": "C:\\\\Users\\\\Ad\\\\Desktop\\\\DuAnCty\\\\ADuanCty5\\\\FrontEnd\\\\ReportFrontend\\\\pages\\\\Account\\\\_id.vue",
+    "chunkName": "pages/Account/_id",
+    "_name": "_27920651"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "C:\\\\Users\\\\Ad\\\\Desktop\\\\DuAnCty\\\\ADuanCty5\\\\FrontEnd\\\\ReportFrontend\\\\pages\\\\index.vue",
+    "chunkName": "pages/index",
+    "_name": "_46f945fe"
+  }
+]
