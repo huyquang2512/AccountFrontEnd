@@ -7,13 +7,13 @@
     <div class="container-fluid">
         <div class="form-group" v-if="title == 'Edit Account'">
             <label>UserName:</label>
-            <input type="text" class="form-control"  v-model="form.username" disabled/>
+            <input type="text" class="form-control" v-model="form.username" disabled />
         </div>
     </div>
-     <div class="container-fluid">
+    <div class="container-fluid">
         <div class="form-group" v-if="title == 'Create Account'">
             <label>UserName:</label>
-            <input type="text" class="form-control"  v-model="form.username" />
+            <input type="text" class="form-control" v-model="form.username" />
         </div>
     </div>
     <div class="container-fluid">
@@ -77,6 +77,7 @@ export default {
                 sex: "",
                 email: "",
             },
+            errors: [],
         };
     },
 
@@ -85,7 +86,7 @@ export default {
      */
     mounted() {
         if (this.$route.params.id != null) {
-            this.listData();
+            this.getDetail();
         }
     },
 
@@ -93,7 +94,7 @@ export default {
         /**
          * Get Team By ID
          */
-        listData() {
+        getDetail() {
             axios({
                     method: "GET",
                     url: `http://127.0.0.1:8000/api/account/` + this.$route.params.id,
@@ -110,22 +111,56 @@ export default {
          * Update Team
          */
         updateAccount() {
-            axios.put("http://127.0.0.1:8000/api/account/update/" + this.$route.params.id, this.form);
-            console.log(this.$route.params.id)
-            this.$router.push({
-                path: "/Account/List",
-            });
+            this.errors = [];
+            this.validate();
+            console.log(this.error)
+            if (this.errors.length > 0) {
+                alert(this.errors)
+            } else {
+                axios.put("http://127.0.0.1:8000/api/account/update/" + this.$route.params.id, this.form);
+                console.log(this.$route.params.id)
+                this.$router.push({
+                    path: "/Account/List",
+                });
+            }
         },
 
         /**
          * Create Team
          */
         createAccount() {
-            axios.post("http://127.0.0.1:8000/api/insert", this.form);
-            this.$router.push({
-                path: "/Account/List",
-            });
+            this.errors = [];
+            this.validate();
+            console.log(this.error)
+            if (this.errors.length > 0) {
+                alert(this.errors)
+            } else {
+                axios.post("http://127.0.0.1:8000/api/insert", this.form);
+                this.$router.push({
+                    path: "/Account/List",
+                });
+            }
         },
+        validate() {
+            if (this.form.username = "") {
+                this.errors.push("Không Được Để Trống UserName")
+            }
+            if (this.form.password = "") {
+                this.errors.push("Không Được Để Trống Password")
+            }
+            if (this.form.email = "") {
+                this.errors.push("Không Được Để Trống Email")
+            }
+            if (this.form.address = "") {
+                this.errors.push("Không Được Để Trống Address")
+            }
+            if (this.form.age = "") {
+                this.errors.push("Không Được Để Trống Age")
+            }
+            if (this.form.sex = "") {
+                this.errors.push("Không Được Để Trống Sex")
+            }
+        }
     },
 };
 </script>

@@ -32,14 +32,14 @@ export default {
      * Call listData Function
      */
     mounted() {
-        this.listData();
+        this.getDetail();
     },
 
     methods: {
         /**
          * Get All Team
          */
-        listData() {
+        getDetail() {
             axios({
                     method: "GET",
                     url: "http://127.0.0.1:8000/api/account",

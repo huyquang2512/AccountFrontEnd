@@ -4,11 +4,11 @@ import { normalizeURL, decode } from 'ufo'
 import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
-const _324ad937 = () => interopDefault(import('..\\pages\\Account\\List.vue' /* webpackChunkName: "pages/Account/List" */))
-const _c2ff19d2 = () => interopDefault(import('..\\pages\\Account\\New.vue' /* webpackChunkName: "pages/Account/New" */))
-const _6c5885fe = () => interopDefault(import('..\\pages\\Account\\Search.vue' /* webpackChunkName: "pages/Account/Search" */))
-const _27920651 = () => interopDefault(import('..\\pages\\Account\\_id.vue' /* webpackChunkName: "pages/Account/_id" */))
-const _46f945fe = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages/index" */))
+const _4fcdf39d = () => interopDefault(import('..\\pages\\Account\\List.vue' /* webpackChunkName: "pages/Account/List" */))
+const _449d73f1 = () => interopDefault(import('..\\pages\\Account\\New.vue' /* webpackChunkName: "pages/Account/New" */))
+const _da0c5432 = () => interopDefault(import('..\\pages\\Account\\Search.vue' /* webpackChunkName: "pages/Account/Search" */))
+const _64a1f1aa = () => interopDefault(import('..\\pages\\Account\\_id.vue' /* webpackChunkName: "pages/Account/_id" */))
+const _6e182664 = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages/index" */))
 
 const emptyFn = () => {}
 
@@ -23,23 +23,23 @@ export const routerOptions = {
 
   routes: [{
     path: "/Account/List",
-    component: _324ad937,
+    component: _4fcdf39d,
     name: "Account-List"
   }, {
     path: "/Account/New",
-    component: _c2ff19d2,
+    component: _449d73f1,
     name: "Account-New"
   }, {
     path: "/Account/Search",
-    component: _6c5885fe,
+    component: _da0c5432,
     name: "Account-Search"
   }, {
     path: "/Account/:id?",
-    component: _27920651,
+    component: _64a1f1aa,
     name: "Account-id"
   }, {
     path: "/",
-    component: _46f945fe,
+    component: _6e182664,
     name: "index"
   }],
 

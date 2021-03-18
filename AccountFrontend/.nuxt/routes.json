@@ -2,36 +2,36 @@
   {
     "name": "Account-List",
     "path": "/Account/List",
-    "component": "C:\\\\Users\\\\Ad\\\\Desktop\\\\DuAnCty\\\\ADuanCty5\\\\FrontEnd\\\\ReportFrontend\\\\pages\\\\Account\\\\List.vue",
+    "component": "C:\\\\Users\\\\Ad\\\\Desktop\\\\Account\\\\Account\\\\Account\\\\Account\\\\AccountFrontEnd\\\\AccountFrontend\\\\pages\\\\Account\\\\List.vue",
     "chunkName": "pages/Account/List",
-    "_name": "_324ad937"
+    "_name": "_4fcdf39d"
   },
   {
     "name": "Account-New",
     "path": "/Account/New",
-    "component": "C:\\\\Users\\\\Ad\\\\Desktop\\\\DuAnCty\\\\ADuanCty5\\\\FrontEnd\\\\ReportFrontend\\\\pages\\\\Account\\\\New.vue",
+    "component": "C:\\\\Users\\\\Ad\\\\Desktop\\\\Account\\\\Account\\\\Account\\\\Account\\\\AccountFrontEnd\\\\AccountFrontend\\\\pages\\\\Account\\\\New.vue",
     "chunkName": "pages/Account/New",
-    "_name": "_c2ff19d2"
+    "_name": "_449d73f1"
   },
   {
     "name": "Account-Search",
     "path": "/Account/Search",
-    "component": "C:\\\\Users\\\\Ad\\\\Desktop\\\\DuAnCty\\\\ADuanCty5\\\\FrontEnd\\\\ReportFrontend\\\\pages\\\\Account\\\\Search.vue",
+    "component": "C:\\\\Users\\\\Ad\\\\Desktop\\\\Account\\\\Account\\\\Account\\\\Account\\\\AccountFrontEnd\\\\AccountFrontend\\\\pages\\\\Account\\\\Search.vue",
     "chunkName": "pages/Account/Search",
-    "_name": "_6c5885fe"
+    "_name": "_da0c5432"
   },
   {
     "name": "Account-id",
     "path": "/Account/:id?",
-    "component": "C:\\\\Users\\\\Ad\\\\Desktop\\\\DuAnCty\\\\ADuanCty5\\\\FrontEnd\\\\ReportFrontend\\\\pages\\\\Account\\\\_id.vue",
+    "component": "C:\\\\Users\\\\Ad\\\\Desktop\\\\Account\\\\Account\\\\Account\\\\Account\\\\AccountFrontEnd\\\\AccountFrontend\\\\pages\\\\Account\\\\_id.vue",
     "chunkName": "pages/Account/_id",
-    "_name": "_27920651"
+    "_name": "_64a1f1aa"
   },
   {
     "name": "index",
     "path": "/",
-    "component": "C:\\\\Users\\\\Ad\\\\Desktop\\\\DuAnCty\\\\ADuanCty5\\\\FrontEnd\\\\ReportFrontend\\\\pages\\\\index.vue",
+    "component": "C:\\\\Users\\\\Ad\\\\Desktop\\\\Account\\\\Account\\\\Account\\\\Account\\\\AccountFrontEnd\\\\AccountFrontend\\\\pages\\\\index.vue",
     "chunkName": "pages/index",
-    "_name": "_46f945fe"
+    "_name": "_6e182664"
   }
 ]
